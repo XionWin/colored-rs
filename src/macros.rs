@@ -42,7 +42,7 @@ macro_rules! print_warning {
     };
     ($($arg:tt)*) => {{
         let msg = format!($($arg)*);
-        println!("{}", $crate::Colorize::bright_yellow(&*msg))
+        println!("{}", $crate::Colorize::yellow(&*msg))
     }};
 }
 
