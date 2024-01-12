@@ -29,9 +29,6 @@
 //! modify them.
 #![warn(missing_docs)]
 
-#[macro_use]
-extern crate lazy_static;
-
 mod color;
 pub mod control;
 #[allow(dead_code)]
