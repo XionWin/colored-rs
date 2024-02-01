@@ -349,7 +349,7 @@ impl Style {
         styles
             .iter()
             .map(|s| s.to_str())
-            .collect::<Vec<&str>>()
+            .collect::<Vec<_>>()
             .join(";")
     }
 
